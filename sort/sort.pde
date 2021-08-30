@@ -58,6 +58,8 @@ void draw()
     // bubble();
 }
 
+// merge sort implementation
+
 void mergesort()
 {
   if(mi < arr.length)
@@ -134,6 +136,11 @@ void merge(int[] a, int l, int m, int r)
     k++; y++;
   }
 }
+
+// ------End of merge sort implementation-----------
+
+
+//Quick sort implementation
 
 void quick()
 {
@@ -224,6 +231,10 @@ void insertion()
   }
 }
 
+// ---------End of quick sort implementation--------
+
+
+// Selection sort implementation
 void selection()
 {
   if(si<arr.length)
@@ -259,6 +270,10 @@ void selection()
   }
 }
 
+// ----------End of selection sort implementation--------- 
+
+
+//Bubble sort implementation
 void bubble()
 {
   if(bi<arr.length-1)
@@ -291,6 +306,10 @@ void bubble()
   }
 }
 
+// -----------End of bubble sort implementation
+
+
+/// Helper Functions
 void swap(int[] a, int x, int y)
 {
   int temp = a[x];
